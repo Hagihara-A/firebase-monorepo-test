@@ -1,7 +1,8 @@
 {
   "name": "common",
   "version": "1.0.0",
-  "main": "build/index.ts",
+  "main": "./src/index.js",
+  "types": "./build/index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "jest": "^28.1.0",
