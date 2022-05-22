@@ -4,5 +4,10 @@
     "libs/*",
     "apps/*"
   ],
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "firebase-tools": "^11.0.0",
+    "ts-jest": "^28.0.2"
+  }
 }
