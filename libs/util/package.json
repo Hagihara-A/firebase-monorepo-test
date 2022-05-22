@@ -1,0 +1,14 @@
+{
+  "name": "util",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  }
+}
