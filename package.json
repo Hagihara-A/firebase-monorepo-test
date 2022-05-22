@@ -1,0 +1,8 @@
+{
+  "name": "firebase-monorepo-test",
+  "workspaces": [
+    "libs/*",
+    "apps/*"
+  ],
+  "private": true
+}
