@@ -4,7 +4,7 @@ export type Account = {
 };
 
 export type Schema = {
-  accouts: {
+  accounts: {
     [Dockey: string]: {
       doc: Account;
     };
