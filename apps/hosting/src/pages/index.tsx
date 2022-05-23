@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { splitArray } from "common";
+import { sayHelloMonorepo } from "common";
 import { Schema } from "model";
 
 export default function Home() {
@@ -14,11 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Monorepo Next.js!</a>
-        </h1>
-
-        <div>{JSON.stringify(splitArray([1, 2, 3, 4, 5], 2))}</div>
+        <h1 className={styles.title}>{sayHelloMonorepo()}</h1>
       </main>
 
       <footer className={styles.footer}>
